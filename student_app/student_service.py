@@ -5,7 +5,7 @@ def add_student(name, surname, age, score):
 
     if age < 16 or age > 70:
         raise ValueError("Некорректный возраст")
-    if score < 0 or score > 110:
+    if score < 0 or score > 245:
         raise ValueError("Некорректный балл")
 
     global next_id
